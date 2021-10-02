@@ -1,7 +1,6 @@
 import express, { Express, Request, Response } from "express";
 import routes from "routes";
 
-
 export default function createServer () {
   const app : Express = express();
 
